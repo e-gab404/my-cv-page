@@ -2,6 +2,6 @@
 
 
 **Name:** Prince Earl Gabatino
-**Year Level** 4th Year
-**Set** BSIT 4B
-**Course** IT415 - Application Development and Emerging Technologies
+**Year Level:** 4th Year
+**Set/Section:** BSIT 4B
+**Subject:** IT415 - Application Development and Emerging Technologies
