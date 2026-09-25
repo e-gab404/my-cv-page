@@ -1,33 +1,85 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f2f5f3;
     margin: 0;
     padding: 0;
     color: #333;
 }
 .container {
-    max-width: 700px;
+    max-width: 800px;
     margin: 40px auto;
-    background: #fff;
-    padding: 30px 40px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-h1 {
-    margin-bottom: 0;
+
+.header {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #1d4736;
+}
+.header h1 {
+    margin: 0;
+    color: #1d4736;
+    font-size: 32px;
 }
 .title {
     color: #666;
-    margin-top: 4px;
+    margin-top: 8px;
+    font-size: 18px;
 }
 h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 6px;
+    color: #1d4736;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
     margin-top: 30px;
+}
+p {
+    line-height: 1.6;
 }
 ul {
     padding-left: 20px;
+    line-height: 1.8;
+}
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.card {
+    background-color: #f7f9f8;
+    padding: 15px;
+    border-radius: 8px;
+}
+.card h3 {
+    margin-top: 0;
+    color: #1d4736;
 }
 .contact a {
-    color: #333;
+    color: #1d4736;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #777;
+    font-size: 14px;
+}
+@media (max-width: 600px) {
+.container {
+    margin: 20px;
+    padding: 25px;
+}
+.info {
+    grid-template-columns: 1fr;
+}
+.header h1 {
+    font-size: 26px;
+}
 }
