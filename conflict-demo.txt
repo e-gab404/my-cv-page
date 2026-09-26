@@ -1,1 +1,1 @@
-Hello, this is the original line.
+This is Branch A's version of the line.
