@@ -1,1 +1,1 @@
-This is Branch A's version of the line.
+This line was resolved after a merge conflict, combining Branch A and Branch B.
